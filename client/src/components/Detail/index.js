@@ -1,6 +1,6 @@
 import React from "react";
 
-function Books(props) {
+function Detail(props) {
   return (
     <div className="text-center">
       <img alt={props.title} className="img-fluid" src={props.src} style={{ margin: "0 auto" }} />
@@ -12,4 +12,4 @@ function Books(props) {
   );
 }
 
-export default Books;
+export default Detail;

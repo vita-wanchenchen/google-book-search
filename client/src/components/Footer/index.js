@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className="sticky"></div>,
     <footer className="footer">
-      <span>Google Book Search</span>
+      <span>GT Coding BootCamp - Google Book Search</span>
     </footer>
   );
 }

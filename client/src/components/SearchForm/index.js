@@ -14,7 +14,7 @@ function SearchForm(props) {
           name="search"
           type="text"
           className="form-control"
-          placeholder=" The Secret"
+          placeholder="  The Secret"
           id="search"
         />
         <button id="search-button" onClick={props.handleFormSubmit} className="btn btn-info">

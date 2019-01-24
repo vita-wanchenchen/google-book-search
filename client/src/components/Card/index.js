@@ -11,7 +11,7 @@ function Card(props) {
       <CardBtn
         style={{ opacity: props.image ? 1 : 0 }}
         onClick={props.handleBtnClick}
-        data-value="View"
+        data-value="Read More"
       />
       <CardBtn
         style={{ opacity: props.image ? 1 : 0 }}

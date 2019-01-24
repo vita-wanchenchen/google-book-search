@@ -17,8 +17,8 @@ if (process.env.NODE_ENV === "production") {
 // Define API routes here
 app.use(routes);
 
-// Connect to MongoDB googlebooks, do this when deploying on Heroku
-// If deployed, use the deployed database. Otherwise use the local googlebooks database
+// Connect to MongoDB googlebooksearch, do this when deploying on Heroku
+// If deployed, use the deployed database. Otherwise use the local googlebooksearch database
 var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/googlebooksearch";
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 
@@ -31,5 +31,3 @@ app.get("*", (req, res) => {
 app.listen(PORT, () => {
   console.log(`🌎 ==> API server now on port ${PORT}!`);
 });
-
-// module.exports = app;
