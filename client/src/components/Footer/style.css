@@ -1,0 +1,21 @@
+body {
+    overflow-x: hidden;
+  }
+  
+  .footer span {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 13px;
+    background: darkslategray;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  .sticky {
+    display: block;
+    padding: 20px;
+    height: 60px;
+    width: 100%;
+  }

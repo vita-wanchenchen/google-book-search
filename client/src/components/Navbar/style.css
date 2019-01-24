@@ -1,0 +1,35 @@
+nav.navbar.navbar-default {
+    margin: -20px auto;
+}
+
+.navbar-nav {
+  width: 100%;
+  line-height: 40px;
+  float: left;
+  margin: -20px 0 48px 0;
+  padding: 10px;
+  list-style: none;
+  background-color: darkslategray;
+}
+
+li {
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+ul li {
+  float: left;
+}
+
+.navbar-brand .nav-link .nav-link-active {
+  color: black;
+  font-weight: 900;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.navbar-brand {
+  text-decoration: none;
+}

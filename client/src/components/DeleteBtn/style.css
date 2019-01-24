@@ -1,0 +1,11 @@
+.delete-btn {
+  float: right;
+  border-radius: 25px 25px;
+  height: 40px;
+  width: 100px;
+  float: right;
+  background-color: rgb(63, 63, 63);
+  color: white;
+  font-size: 24px;
+  margin: 20px 20px 0 20px;
+  }
