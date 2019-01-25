@@ -2,7 +2,7 @@
   "name": "google-book-search",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "debug": "nodemon --inspect=9229 server.js",
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
